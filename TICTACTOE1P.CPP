@@ -1101,7 +1101,7 @@ void loaddriver()
    int xmax, ymax;
 
    /* initialize graphics and local variables */
-   initgraph(&gdriver, &gmode, "d:\\tc\\bgi");
+   initgraph(&gdriver, &gmode, "c:\\turboc3\\bgi");
 
    /* read result of initialization */
    errorcode = graphresult();
