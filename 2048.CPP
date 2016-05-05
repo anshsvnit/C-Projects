@@ -444,7 +444,7 @@ void main()
    int left, top, right, bottom;
 
    /* initialize graphics and local variables */
-   initgraph(&gdriver, &gmode, "d://tc//bgi");
+   initgraph(&gdriver, &gmode, "c://tc//bgi");
 
    /* read result of initialization */
    errorcode = graphresult();
